@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C4011E1F3830A0828B79431 /* Pods_CoreCobaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A65150ECA5EA8E9D6962402 /* Pods_CoreCobaTest.framework */; };
+		DE0E938A6B8EDC2D8653B645 /* Pods_CoreCobaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941C463AF4DE58C0C6AFC74 /* Pods_CoreCobaTest.framework */; };
 		FAB20E9825CEB18300B1240C /* CoreCobaTest.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB20E9625CEB18300B1240C /* CoreCobaTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAB20EA925CEB2F700B1240C /* UseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB20EA825CEB2F700B1240C /* UseCaseType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		134AE25B7C52E7F6D849C74B /* Pods-CoreCobaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.debug.xcconfig"; path = "Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.debug.xcconfig"; sourceTree = "<group>"; };
-		5A65150ECA5EA8E9D6962402 /* Pods_CoreCobaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreCobaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D24D543AF808ED0CAD249BD3 /* Pods-CoreCobaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.release.xcconfig"; path = "Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.release.xcconfig"; sourceTree = "<group>"; };
+		8941C463AF4DE58C0C6AFC74 /* Pods_CoreCobaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreCobaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F748021CC79A01698732C7 /* Pods-CoreCobaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.release.xcconfig"; path = "Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.release.xcconfig"; sourceTree = "<group>"; };
+		D0170816B89DB453DE0FA218 /* Pods-CoreCobaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.debug.xcconfig"; path = "Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		FAB20E9325CEB18300B1240C /* CoreCobaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreCobaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB20E9625CEB18300B1240C /* CoreCobaTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCobaTest.h; sourceTree = "<group>"; };
 		FAB20E9725CEB18300B1240C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAB20EA825CEB2F700B1240C /* UseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,28 +25,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C4011E1F3830A0828B79431 /* Pods_CoreCobaTest.framework in Frameworks */,
+				DE0E938A6B8EDC2D8653B645 /* Pods_CoreCobaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		223046547BF2B1F261263A4D /* Frameworks */ = {
+		1886A96709A374C4730FE231 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A65150ECA5EA8E9D6962402 /* Pods_CoreCobaTest.framework */,
+				8941C463AF4DE58C0C6AFC74 /* Pods_CoreCobaTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		40262CEE0EFAE9DA9E711A27 /* Pods */ = {
+		9AF33203B277ABD87FEBF196 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				134AE25B7C52E7F6D849C74B /* Pods-CoreCobaTest.debug.xcconfig */,
-				D24D543AF808ED0CAD249BD3 /* Pods-CoreCobaTest.release.xcconfig */,
+				D0170816B89DB453DE0FA218 /* Pods-CoreCobaTest.debug.xcconfig */,
+				B5F748021CC79A01698732C7 /* Pods-CoreCobaTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -57,8 +54,8 @@
 			children = (
 				FAB20E9525CEB18300B1240C /* CoreCobaTest */,
 				FAB20E9425CEB18300B1240C /* Products */,
-				40262CEE0EFAE9DA9E711A27 /* Pods */,
-				223046547BF2B1F261263A4D /* Frameworks */,
+				9AF33203B277ABD87FEBF196 /* Pods */,
+				1886A96709A374C4730FE231 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,27 +70,10 @@
 		FAB20E9525CEB18300B1240C /* CoreCobaTest */ = {
 			isa = PBXGroup;
 			children = (
-				FAB20EA625CEB2BD00B1240C /* Domain */,
 				FAB20E9625CEB18300B1240C /* CoreCobaTest.h */,
 				FAB20E9725CEB18300B1240C /* Info.plist */,
 			);
 			path = CoreCobaTest;
-			sourceTree = "<group>";
-		};
-		FAB20EA625CEB2BD00B1240C /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				FAB20EA725CEB2C500B1240C /* UseCase */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		FAB20EA725CEB2C500B1240C /* UseCase */ = {
-			isa = PBXGroup;
-			children = (
-				FAB20EA825CEB2F700B1240C /* UseCaseType.swift */,
-			);
-			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +94,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB20E9B25CEB18300B1240C /* Build configuration list for PBXNativeTarget "CoreCobaTest" */;
 			buildPhases = (
-				0B92F7382066229C458C5454 /* [CP] Check Pods Manifest.lock */,
+				F1A58F8A82A2301F34CF81F3 /* [CP] Check Pods Manifest.lock */,
 				FAB20E8E25CEB18300B1240C /* Headers */,
 				FAB20E8F25CEB18300B1240C /* Sources */,
 				FAB20E9025CEB18300B1240C /* Frameworks */,
@@ -172,7 +152,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B92F7382066229C458C5454 /* [CP] Check Pods Manifest.lock */ = {
+		F1A58F8A82A2301F34CF81F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB20EA925CEB2F700B1240C /* UseCaseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +311,7 @@
 		};
 		FAB20E9C25CEB18300B1240C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 134AE25B7C52E7F6D849C74B /* Pods-CoreCobaTest.debug.xcconfig */;
+			baseConfigurationReference = D0170816B89DB453DE0FA218 /* Pods-CoreCobaTest.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -359,7 +338,7 @@
 		};
 		FAB20E9D25CEB18300B1240C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D24D543AF808ED0CAD249BD3 /* Pods-CoreCobaTest.release.xcconfig */;
+			baseConfigurationReference = B5F748021CC79A01698732C7 /* Pods-CoreCobaTest.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
