@@ -17,3 +17,6 @@ public protocol UseCaseType {
 public var hello2: String {
   "Hello from Common"
 }
+public var hello3: String {
+  "Hello from Common2"
+}

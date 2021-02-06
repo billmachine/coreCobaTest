@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CoreCobaTest"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.swift_version = "5.1"
   spec.summary      = "A framework for modularization "
 
