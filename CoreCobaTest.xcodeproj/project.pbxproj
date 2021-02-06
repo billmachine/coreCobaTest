@@ -9,15 +9,17 @@
 /* Begin PBXBuildFile section */
 		DE0E938A6B8EDC2D8653B645 /* Pods_CoreCobaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8941C463AF4DE58C0C6AFC74 /* Pods_CoreCobaTest.framework */; };
 		FAB20E9825CEB18300B1240C /* CoreCobaTest.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB20E9625CEB18300B1240C /* CoreCobaTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF2FE2D25CEDF0E00D484FA /* UseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2FE2C25CEDF0E00D484FA /* UseCaseType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8941C463AF4DE58C0C6AFC74 /* Pods_CoreCobaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreCobaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5F748021CC79A01698732C7 /* Pods-CoreCobaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.release.xcconfig"; path = "Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.release.xcconfig"; sourceTree = "<group>"; };
-		D0170816B89DB453DE0FA218 /* Pods-CoreCobaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.debug.xcconfig"; path = "Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F748021CC79A01698732C7 /* Pods-CoreCobaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.release.xcconfig"; path = "../../cobaModular/Pods/Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.release.xcconfig"; sourceTree = "<group>"; };
+		D0170816B89DB453DE0FA218 /* Pods-CoreCobaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreCobaTest.debug.xcconfig"; path = "../../cobaModular/Pods/Target Support Files/Pods-CoreCobaTest/Pods-CoreCobaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		FAB20E9325CEB18300B1240C /* CoreCobaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreCobaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB20E9625CEB18300B1240C /* CoreCobaTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCobaTest.h; sourceTree = "<group>"; };
 		FAB20E9725CEB18300B1240C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF2FE2C25CEDF0E00D484FA /* UseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +72,27 @@
 		FAB20E9525CEB18300B1240C /* CoreCobaTest */ = {
 			isa = PBXGroup;
 			children = (
+				FAF2FE2A25CEDEB400D484FA /* Domain */,
 				FAB20E9625CEB18300B1240C /* CoreCobaTest.h */,
 				FAB20E9725CEB18300B1240C /* Info.plist */,
 			);
 			path = CoreCobaTest;
+			sourceTree = "<group>";
+		};
+		FAF2FE2A25CEDEB400D484FA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FE2B25CEDEBA00D484FA /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FAF2FE2B25CEDEBA00D484FA /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2FE2C25CEDF0E00D484FA /* UseCaseType.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF2FE2D25CEDF0E00D484FA /* UseCaseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
